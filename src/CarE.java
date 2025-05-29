@@ -33,6 +33,13 @@ public class CarE extends Vehicle
     {
         this.carProductYear=newProductYear;
     }
+
+
+    @Override
+    public void Start() {
+      System.out.println("Araba Baslatiliyor");
+    }
+
     public static void main(String[] args) {
         CarE carE=new CarE();
         carE.setCarBrand("Ferrari");
@@ -45,5 +52,8 @@ public class CarE extends Vehicle
 
         carE.speed=44;
         System.out.println(carE.speed);
+
+        carE.Start();
+
     }
 }
