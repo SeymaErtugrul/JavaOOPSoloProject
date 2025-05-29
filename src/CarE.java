@@ -1,4 +1,4 @@
-public class CarE
+public class CarE extends Vehicle
 {
     private  String carBrand="Audi";
     private  String carModel="i5";
@@ -42,5 +42,8 @@ public class CarE
         System.out.println(carE.getCarBrand());
         System.out.println(carE.getCarModel());
         System.out.println(carE.getCarProductYear());
+
+        carE.speed=44;
+        System.out.println(carE.speed);
     }
 }
