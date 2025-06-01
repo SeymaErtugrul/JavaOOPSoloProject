@@ -8,5 +8,11 @@ public class Main
         cat.makeSound();
         dog.makeSound();
         animal.makeSound();
+
+        Calculator calculator=new Calculator();
+
+        //Method Overloading
+        System.out.println(calculator.add(67,54));
+        System.out.println(calculator.add(345,467,3));
     }
 }
