@@ -17,6 +17,10 @@ public class Main
 
         //Static metod kullanımı
        System.out.println(addTwoNums(45,2312));
+
+       //this-super
+       new Student("ogr1",34);
+
     }
 
     public static int addTwoNums(int num1, int num2)
