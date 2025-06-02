@@ -21,6 +21,12 @@ public class Main
        //this-super
        new Student("ogr1",34);
 
+       //Abstract class kullanımı
+        Rectangle rectangle=new Rectangle();
+        rectangle.draw();
+        Circle circle=new Circle();
+        circle.draw();
+
     }
 
     public static int addTwoNums(int num1, int num2)
