@@ -27,6 +27,10 @@ public class Main
         Circle circle=new Circle();
         circle.draw();
 
+        //Interface kullanımı
+        dog.sound();
+        cat.sound();
+
     }
 
     public static int addTwoNums(int num1, int num2)
